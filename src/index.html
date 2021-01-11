@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <title>Dictionary</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body style="background: white;">
     <h1>Dictionary application</h1>
-    <p>
-        We are using node <script>document.write(process.versions.node)</script>,
-        Chrome <script>document.write(process.versions.chrome)</script>,
-        and Electron <script>document.write(process.versions.electron)</script>.
-    </p>
+
+    <div>
+        Слово:
+        <div>
+            <input type="text"></input>
+        </div>
+    </div>
+    <div>
+        Перевод: 
+        <div>
+            <textarea rows="10" cols="100"></textarea>
+        </div>
+        </div>
+    <div>
+        <input type="button" value="Сохранить" />
+    </div>
+    <div class="word-list">
+        <div>
+            <span class="word">table</span> - <span>стол</span>
+        </div>
+    </div>
 </body>
 </html>
