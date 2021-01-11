@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nikitagavrilov-tech/dictionary/issues"
   },
-  "homepage": "https://github.com/nikitagavrilov-tech/dictionary#readme"
+  "homepage": "https://github.com/nikitagavrilov-tech/dictionary#readme",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
 }
